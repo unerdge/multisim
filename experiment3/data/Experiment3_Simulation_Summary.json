@@ -1,0 +1,180 @@
+{
+  "self_inductance": [
+    {
+      "case": "Self_Air_Coreless",
+      "label": "空心线圈(15匝等效)",
+      "R_ohm": 10.0,
+      "f_Hz": 10000.0,
+      "Us_rms_V": 0.9950151198529361,
+      "UR_rms_V": 0.9932021821270096,
+      "UL_rms_V": 0.06320506312544166,
+      "L_theory_H": 1e-05,
+      "L_measured_H": 1.0128248211563974e-05,
+      "error_percent": 1.282482115639727,
+      "csv": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\09\\13\\01a09a1d-b40a-7a10-b5e3-2ab69f699534\\exp3-sim\\data\\Self_Air_Coreless.data.csv"
+    },
+    {
+      "case": "Self_Core_Toroid",
+      "label": "磁环线圈(10匝等效)",
+      "R_ohm": 100.0,
+      "f_Hz": 10000.0,
+      "Us_rms_V": 0.9950151198529208,
+      "UR_rms_V": 0.9932021821266358,
+      "UL_rms_V": 0.06320506312541915,
+      "L_theory_H": 0.0001,
+      "L_measured_H": 0.00010128248211564177,
+      "error_percent": 1.2824821156417667,
+      "csv": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\09\\13\\01a09a1d-b40a-7a10-b5e3-2ab69f699534\\exp3-sim\\data\\Self_Core_Toroid.data.csv"
+    }
+  ],
+  "mutual": [
+    {
+      "case": "Mutual_Open_Forward",
+      "method": "交流电压法",
+      "orientation": "正向参考",
+      "U1_rms_V": 0.9948461536235309,
+      "U2_rms_V": 0.21370320729999284,
+      "M_magnitude_H": 4e-05,
+      "csv": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\09\\13\\01a09a1d-b40a-7a10-b5e3-2ab69f699534\\exp3-sim\\data\\Mutual_Open_Forward.data.csv"
+    },
+    {
+      "case": "Mutual_Open_Reversed",
+      "method": "交流电压法",
+      "orientation": "反向参考",
+      "U1_rms_V": 0.9948461536235309,
+      "U2_rms_V": 0.21370320729999284,
+      "M_magnitude_H": 4e-05,
+      "csv": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\09\\13\\01a09a1d-b40a-7a10-b5e3-2ab69f699534\\exp3-sim\\data\\Mutual_Open_Reversed.data.csv"
+    },
+    {
+      "case": "Mutual_Series_Aiding",
+      "method": "串联法",
+      "orientation": "正向串联",
+      "Us_rms_V": 0.9948463485963104,
+      "U_after_R_rms_V": 0.7895892486499767,
+      "I_rms_A": 0.06129197274596885,
+      "L_eq_H": 0.00020503016350232342,
+      "csv": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\09\\13\\01a09a1d-b40a-7a10-b5e3-2ab69f699534\\exp3-sim\\data\\Mutual_Series_Aiding.data.csv"
+    },
+    {
+      "case": "Mutual_Series_Opposing",
+      "method": "串联法",
+      "orientation": "反向串联",
+      "Us_rms_V": 0.9948517145775484,
+      "U_after_R_rms_V": 0.2740061552897715,
+      "I_rms_A": 0.09579835321654069,
+      "L_eq_H": 4.552211242441582e-05,
+      "csv": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\09\\13\\01a09a1d-b40a-7a10-b5e3-2ab69f699534\\exp3-sim\\data\\Mutual_Series_Opposing.data.csv"
+    }
+  ],
+  "max_power": [
+    {
+      "case": "MaxPower_01",
+      "Rload_ohm": 10,
+      "UL_rms_V": 0.13827703772449093,
+      "IL_rms_A": 0.013827703772449093,
+      "PL_W": 0.0019120539161860289,
+      "csv": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\09\\13\\01a09a1d-b40a-7a10-b5e3-2ab69f699534\\exp3-sim\\data\\MaxPower_01.data.csv"
+    },
+    {
+      "case": "MaxPower_02",
+      "Rload_ohm": 25,
+      "UL_rms_V": 0.2377567300095726,
+      "IL_rms_A": 0.009510269200382903,
+      "PL_W": 0.0022611305065937917,
+      "csv": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\09\\13\\01a09a1d-b40a-7a10-b5e3-2ab69f699534\\exp3-sim\\data\\MaxPower_02.data.csv"
+    },
+    {
+      "case": "MaxPower_03",
+      "Rload_ohm": 50,
+      "UL_rms_V": 0.3090690504931811,
+      "IL_rms_A": 0.006181381009863623,
+      "PL_W": 0.0019104735594551309,
+      "csv": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\09\\13\\01a09a1d-b40a-7a10-b5e3-2ab69f699534\\exp3-sim\\data\\MaxPower_03.data.csv"
+    },
+    {
+      "case": "MaxPower_04",
+      "Rload_ohm": 100,
+      "UL_rms_V": 0.3614145696069344,
+      "IL_rms_A": 0.003614145696069344,
+      "PL_W": 0.0013062049112416562,
+      "csv": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\09\\13\\01a09a1d-b40a-7a10-b5e3-2ab69f699534\\exp3-sim\\data\\MaxPower_04.data.csv"
+    },
+    {
+      "case": "MaxPower_05",
+      "Rload_ohm": 200,
+      "UL_rms_V": 0.3939648645344462,
+      "IL_rms_A": 0.0019698243226722307,
+      "PL_W": 0.0007760415724382226,
+      "csv": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\09\\13\\01a09a1d-b40a-7a10-b5e3-2ab69f699534\\exp3-sim\\data\\MaxPower_05.data.csv"
+    },
+    {
+      "case": "MaxPower_06",
+      "Rload_ohm": 400,
+      "UL_rms_V": 0.41202468986261004,
+      "IL_rms_A": 0.0010300617246565252,
+      "PL_W": 0.00042441086264095,
+      "csv": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\09\\13\\01a09a1d-b40a-7a10-b5e3-2ab69f699534\\exp3-sim\\data\\MaxPower_06.data.csv"
+    },
+    {
+      "case": "MaxPower_07",
+      "Rload_ohm": 800,
+      "UL_rms_V": 0.42169636635509106,
+      "IL_rms_A": 0.0005271204579438638,
+      "PL_W": 0.00022228478174635895,
+      "csv": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\09\\13\\01a09a1d-b40a-7a10-b5e3-2ab69f699534\\exp3-sim\\data\\MaxPower_07.data.csv"
+    },
+    {
+      "case": "MaxPower_08",
+      "Rload_ohm": 1200,
+      "UL_rms_V": 0.4249956491962776,
+      "IL_rms_A": 0.000354163040996898,
+      "PL_W": 0.00015051775152980453,
+      "csv": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\09\\13\\01a09a1d-b40a-7a10-b5e3-2ab69f699534\\exp3-sim\\data\\MaxPower_08.data.csv"
+    },
+    {
+      "case": "MaxPower_09",
+      "Rload_ohm": 1600,
+      "UL_rms_V": 0.4266653109099898,
+      "IL_rms_A": 0.0002666658193187436,
+      "PL_W": 0.00011377705470869893,
+      "csv": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\09\\13\\01a09a1d-b40a-7a10-b5e3-2ab69f699534\\exp3-sim\\data\\MaxPower_09.data.csv"
+    },
+    {
+      "case": "MaxPower_10",
+      "Rload_ohm": 2000,
+      "UL_rms_V": 0.427674633796151,
+      "IL_rms_A": 0.0002138373168980755,
+      "PL_W": 9.145279619633593e-05,
+      "csv": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\09\\13\\01a09a1d-b40a-7a10-b5e3-2ab69f699534\\exp3-sim\\data\\MaxPower_10.data.csv"
+    }
+  ],
+  "mutual_m_H": 0.0398770127694769,
+  "coupling_k": 0.8,
+  "max_power_best": {
+    "case": "MaxPower_02",
+    "Rload_ohm": 25,
+    "UL_rms_V": 0.2377567300095726,
+    "IL_rms_A": 0.009510269200382903,
+    "PL_W": 0.0022611305065937917,
+    "csv": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\09\\13\\01a09a1d-b40a-7a10-b5e3-2ab69f699534\\exp3-sim\\data\\MaxPower_02.data.csv"
+  },
+  "self_open": [
+    {
+      "case": "Self_L1_Open",
+      "method": "开路自感",
+      "frequency_Hz": 300.0,
+      "L_model_H": 0.1,
+      "secondary": "L2 open",
+      "csv": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\09\\13\\01a09a1d-b40a-7a10-b5e3-2ab69f699534\\exp3-sim\\data\\Self_L1_Open.data.csv"
+    },
+    {
+      "case": "Self_L2_Open",
+      "method": "开路自感",
+      "frequency_Hz": 300.0,
+      "L_model_H": 0.025,
+      "secondary": "L1 open",
+      "csv": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\09\\13\\01a09a1d-b40a-7a10-b5e3-2ab69f699534\\exp3-sim\\data\\Self_L2_Open.data.csv"
+    }
+  ]
+}
